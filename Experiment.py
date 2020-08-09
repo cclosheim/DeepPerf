@@ -414,16 +414,25 @@ if __name__ == '__main__':
                     dic[int(float(x[0]))] = (float(x[1]), float(x[2]))
 
         print(dic)
-
+        einhundert = False
+        eins = False
         l = Lock()
+        keylist = list(dic.keys())
+        if (not (1 in keylist)):
+            p = Process(target=function, args=(1, dic,l, name))
+            eins = True
+        if (not (100 in keylist)):
+            t = Process(target=function, args=(100, dic,l,name))
+            einhundert =True
 
-        p = Process(target=function, args=(1, dic,l, name))
-        t = Process(target=function, args=(100, dic,l,name))
-
-        p.start()
-        t.start()
-        p.join()
-        t.join()
+        if eins:
+            p.start()
+        if einhundert:
+            t.start()
+        if eins:
+            p.join()
+        if einhundert:
+            t.join()
         check = True
         while(check):
             keylist = list(dic.keys())
