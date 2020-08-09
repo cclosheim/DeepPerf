@@ -356,10 +356,10 @@ def writeincsv(samplesize):
 #version mit Nebenläufigkeit dringent noch optimieren löuft sau langsam
 
 def function(samplesize, dic, lock):
-    name = "LLVM"
+    name = "BDBC"
 
-    #process = Popen("python AutoDeepPerf.py "+name+" -ss %i -ne 30" %samplesize)
-    process = Popen("python AutoDeepPref_new_sampling_methode.py " + name + " -ss %i -ne 30" % samplesize)
+    process = Popen("python AutoDeepPerf.py "+name+" -ss %i -ne 30" %samplesize)
+    #process = Popen("python AutoDeepPref_new_sampling_methode.py " + name + " -ss %i -ne 30" % samplesize)
     process.wait()
     lock.acquire()
     #writeincsv(samplesize)
