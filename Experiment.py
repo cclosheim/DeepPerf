@@ -355,8 +355,8 @@ def writeincsv(samplesize):
 
 #version mit Nebenläufigkeit dringent noch optimieren löuft sau langsam
 
-def function(samplesize, dic, lock):
-    name = "BDBC"
+def function(samplesize, dic, lock, name):
+    #name = "BDBC"
 
     process = Popen("python AutoDeepPerf.py "+name+" -ss %i -ne 30" %samplesize)
     #process = Popen("python AutoDeepPref_new_sampling_methode.py " + name + " -ss %i -ne 30" % samplesize)
@@ -400,12 +400,25 @@ def condition(d):
 
 if __name__ == '__main__':
     with Manager() as manager:
+        name = "BDBC"
+
+
 
         dic = manager.dict()
+
+
+        with open("result_" + name + "_complete.csv") as csvdatei:
+            csv_reader_object = csv.reader(csvdatei)
+            for x in csv_reader_object:
+                if any(x):
+                    dic[int(float(x[0]))] = (float(x[1]), float(x[2]))
+
+        print(dic)
+
         l = Lock()
 
-        p = Process(target=function, args=(1, dic,l))
-        t = Process(target=function, args=(100, dic,l))
+        p = Process(target=function, args=(1, dic,l, name))
+        t = Process(target=function, args=(100, dic,l,name))
 
         p.start()
         t.start()
@@ -424,7 +437,7 @@ if __name__ == '__main__':
                     newtocheck = int((keylist[i] + keylist[i + 1]) / 2)
                     if (not (newtocheck in keylist)):
                         check = True
-                        t = Process(target=function, args=(newtocheck, dic, l))
+                        t = Process(target=function, args=(newtocheck, dic, l,name))
                         threads.append(t)
             for x in threads:
                 x.start()
