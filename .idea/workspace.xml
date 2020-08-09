@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1571141a-b5eb-4883-a5a2-668d3ce94f4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,15 +18,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Experiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="415" column="18" lean-forward="true" selection-start-line="415" selection-start-column="18" selection-end-line="415" selection-end-column="18" />
+            <state relative-caret-position="1194">
+              <caret line="446" lean-forward="true" selection-start-line="446" selection-end-line="446" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#165#6310#0" />
                 <element signature="e#171#1196#0" />
                 <element signature="e#1201#5851#1" />
                 <element signature="e#7114#7894#1" />
-                <element signature="e#8240#8979#0" />
               </folding>
             </state>
           </provider>
@@ -371,12 +369,20 @@
       <workItem from="1594892039883" duration="1318000" />
       <workItem from="1596778353421" duration="81000" />
       <workItem from="1596888639766" duration="3184000" />
-      <workItem from="1596963352911" duration="1925000" />
+      <workItem from="1596963352911" duration="2964000" />
     </task>
+    <task id="LOCAL-00001" summary="Umbau um Daten wieder aufzunehemen">
+      <created>1596966719939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596966719939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160118000" />
+    <option name="totallyTimeSpent" value="161157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,10 +394,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="782" height="838" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.29411766" side_tool="true" visible="true" weight="0.16574585" />
+      <window_info id="Structure" order="0" sideWeight="0.29411766" side_tool="true" visible="true" weight="0.27345845" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7058824" weight="0.16621985" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -400,13 +405,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32974428" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.301273" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.301273" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,6 +422,36 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Umbau um Daten wieder aufzunehemen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Umbau um Daten wieder aufzunehemen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -902,15 +937,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Experiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="415" column="18" lean-forward="true" selection-start-line="415" selection-start-column="18" selection-end-line="415" selection-end-column="18" />
+        <state relative-caret-position="1194">
+          <caret line="446" lean-forward="true" selection-start-line="446" selection-end-line="446" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#165#6310#0" />
             <element signature="e#171#1196#0" />
             <element signature="e#1201#5851#1" />
             <element signature="e#7114#7894#1" />
-            <element signature="e#8240#8979#0" />
           </folding>
         </state>
       </provider>
