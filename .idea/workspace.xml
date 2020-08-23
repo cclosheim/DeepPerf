@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1571141a-b5eb-4883-a5a2-668d3ce94f4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DeepPerf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepPerf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_Apache.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_Apache.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_Apache_AutoML_veryrandom.npy" beforeDir="false" afterPath="$PROJECT_DIR$/result_Apache_AutoML_veryrandom.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_Apache_complete.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_Apache_complete.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result_BDBC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_BDBC.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result_BDBC_AutoML_veryrandom.npy" beforeDir="false" afterPath="$PROJECT_DIR$/result_BDBC_AutoML_veryrandom.npy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result_BDBC_complete.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_BDBC_complete.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_BDBJ.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_BDBJ.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_BDBJ_AutoML_veryrandom.npy" beforeDir="false" afterPath="$PROJECT_DIR$/result_BDBJ_AutoML_veryrandom.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_BDBJ_complete.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_BDBJ_complete.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_LLVM_complete.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_LLVM_complete.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_SQL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_SQL.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_SQL_AutoML_veryrandom.npy" beforeDir="false" afterPath="$PROJECT_DIR$/result_SQL_AutoML_veryrandom.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_SQL_complete.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_SQL_complete.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_x264.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_x264.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_x264_AutoML_veryrandom.npy" beforeDir="false" afterPath="$PROJECT_DIR$/result_x264_AutoML_veryrandom.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_x264_complete.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_x264_complete.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,63 +35,83 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Experiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="434" column="20" lean-forward="true" selection-start-line="434" selection-start-column="20" selection-end-line="434" selection-end-column="20" />
+            <state relative-caret-position="56">
+              <caret line="402" column="20" selection-start-line="402" selection-start-column="20" selection-end-line="402" selection-end-column="20" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#165#6310#0" />
                 <element signature="e#171#1196#0" />
                 <element signature="e#1201#5851#1" />
-                <element signature="e#7114#7894#1" />
+                <element signature="e#7121#7901#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result_BDBC.csv">
+        <entry file="file://$PROJECT_DIR$/result_SQL_complete.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/result_BDBC_complete.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/result_BDBJ_complete.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="187">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Experiemt2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="102" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="102" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/result_BDBJ.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result_x264_complete.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result_BDBC_complete.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result_Apache_complete.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="122">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/result_LLVM_complete.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
               <column index="0" width="100" />
               <column index="1" width="100" />
               <column index="2" width="100" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -99,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Own_Sampling_methode_beta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="238">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -134,22 +166,22 @@
         <option value="$PROJECT_DIR$/Own_Sampling_methode_beta.py" />
         <option value="$PROJECT_DIR$/AutoDeepPref_new_sampling_methode.py" />
         <option value="$PROJECT_DIR$/Experiemt2.py" />
-        <option value="$PROJECT_DIR$/result_SQL_complete.csv" />
-        <option value="$PROJECT_DIR$/result_BDBJ_complete.csv" />
-        <option value="$PROJECT_DIR$/result_x264_complete.csv" />
         <option value="$PROJECT_DIR$/Diagramm_printing.py" />
-        <option value="$PROJECT_DIR$/result_LLVM_complete.csv" />
         <option value="$PROJECT_DIR$/result_Apache_complete.csv" />
-        <option value="$PROJECT_DIR$/Experiment.py" />
+        <option value="$PROJECT_DIR$/result_SQL_complete.csv" />
+        <option value="$PROJECT_DIR$/result_x264_complete.csv" />
+        <option value="$PROJECT_DIR$/result_BDBJ_complete.csv" />
         <option value="$PROJECT_DIR$/result_BDBC_complete.csv" />
+        <option value="$PROJECT_DIR$/result_LLVM_complete.csv" />
+        <option value="$PROJECT_DIR$/Experiment.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -378,7 +410,13 @@
       <workItem from="1594892039883" duration="1318000" />
       <workItem from="1596778353421" duration="81000" />
       <workItem from="1596888639766" duration="3184000" />
-      <workItem from="1596963352911" duration="8410000" />
+      <workItem from="1596963352911" duration="11074000" />
+      <workItem from="1597091852590" duration="5701000" />
+      <workItem from="1597177243145" duration="1732000" />
+      <workItem from="1597209869359" duration="1144000" />
+      <workItem from="1597221485116" duration="3870000" />
+      <workItem from="1597294038975" duration="932000" />
+      <workItem from="1597351005500" duration="28847000" />
     </task>
     <task id="LOCAL-00001" summary="Umbau um Daten wieder aufzunehemen">
       <created>1596966719939</created>
@@ -387,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596966719939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zweiter durchlauf bdbc">
+      <created>1596987050756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596987050757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166603000" />
+    <option name="totallyTimeSpent" value="211493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,9 +451,9 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.29411766" side_tool="true" visible="true" weight="0.27345845" />
+      <window_info id="Structure" order="0" sideWeight="0.302799" side_tool="true" visible="true" weight="0.17225201" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7058824" weight="0.16621985" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.697201" visible="true" weight="0.17225201" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -421,7 +466,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.301273" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49932975" visible="true" weight="0.301273" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49932975" visible="true" weight="0.44413012" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -458,10 +503,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Umbau um Daten wieder aufzunehemen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Umbau um Daten wieder aufzunehemen" />
+    <MESSAGE value="zweiter durchlauf bdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="zweiter durchlauf bdbc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -536,10 +596,10 @@
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/LLVM_training_index.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
@@ -671,10 +731,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/DeepPerf_results/result_Apache.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/DeepPerf_results/result_BDBC.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
@@ -709,6 +769,7 @@
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
           <column index="0" width="100" />
@@ -722,7 +783,6 @@
           <column index="8" width="100" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/BDBJ_AllNumeric.csv">
       <provider editor-type-id="csv-text-editor">
@@ -852,34 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result_SQL_complete.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result_x264_complete.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result_BDBJ_complete.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result_Apache_complete.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/sac_AllNumeric.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
@@ -889,6 +921,12 @@
     <entry file="https://github.com/cuicaihao/Webcam_QR_Detector.git">
       <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/result_BDBC.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Experiemt2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -896,20 +934,6 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result_LLVM_complete.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-          <column index="2" width="100" />
         </state>
       </provider>
     </entry>
@@ -925,7 +949,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Own_Sampling_methode_beta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="238">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -933,27 +957,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result_BDBC.csv">
+    <entry file="file://$PROJECT_DIR$/result_BDBJ.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_x264_complete.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_LLVM_complete.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_SQL_complete.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_Apache_complete.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="122">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_BDBC_complete.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Experiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="434" column="20" lean-forward="true" selection-start-line="434" selection-start-column="20" selection-end-line="434" selection-end-column="20" />
+        <state relative-caret-position="56">
+          <caret line="402" column="20" selection-start-line="402" selection-start-column="20" selection-end-line="402" selection-end-column="20" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#165#6310#0" />
             <element signature="e#171#1196#0" />
             <element signature="e#1201#5851#1" />
-            <element signature="e#7114#7894#1" />
+            <element signature="e#7121#7901#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result_BDBC_complete.csv">
+    <entry file="file://$PROJECT_DIR$/result_BDBJ_complete.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
