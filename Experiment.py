@@ -358,8 +358,8 @@ def writeincsv(samplesize):
 def function(samplesize, dic, lock, name):
     #name = "BDBC"
 
-    process = Popen("python AutoDeepPerf.py "+name+" -ss %i -ne 30" %samplesize)
-    #process = Popen("python AutoDeepPref_new_sampling_methode.py " + name + " -ss %i -ne 30" % samplesize)
+    #process = Popen("python AutoDeepPerf.py "+name+" -ss %i -ne 30" %samplesize)
+    process = Popen("python AutoDeepPref_new_sampling_methode.py " + name + " -ss %i -ne 30" % samplesize)
     process.wait()
     lock.acquire()
     #writeincsv(samplesize)
@@ -400,7 +400,7 @@ def condition(d):
 
 if __name__ == '__main__':
     with Manager() as manager:
-        name = "BDBC"
+        name = "BDBJ"
 
 
 
